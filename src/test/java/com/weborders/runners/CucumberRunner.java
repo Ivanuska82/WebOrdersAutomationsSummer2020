@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        glue="com/weborders/steo_definitions",
+        glue= "com/weborders/step_definitions",
         features="src/test/resources/features",
-        dryRun = true
+        dryRun = false
 
 
 )
