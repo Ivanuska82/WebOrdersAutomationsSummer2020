@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.Properties;
+
 public class Driver {
     private static WebDriver driver;
 
@@ -13,6 +15,7 @@ public class Driver {
     }
     public static WebDriver getDriver(){
         if(driver == null){
+
 
             String browser = "chrome";
             switch (browser){
